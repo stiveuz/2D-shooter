@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: cdd1f08516310834eb2d9e8db25306e3
+  productGUID: ce594dd26451f084fb599fe74be4d117
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -706,10 +706,10 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: a7c84727-38f6-4ed5-9f39-d33c847f674f
+  cloudProjectId: 0d5febaf-352f-4e60-962f-297d402915f7
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 2D Shooter
+  projectName: 2D Shooter 2024-10-14_14-43-19
   organizationId: ahmadraimov89
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
