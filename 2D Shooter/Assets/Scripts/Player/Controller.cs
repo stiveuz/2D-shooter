@@ -107,7 +107,7 @@ public class Controller : MonoBehaviour
             transform.GetChild(0).gameObject.SetActive(true);
             moveSpeed = 20;
         }
-        if (Input.GetKeyDown(KeyCode.S))
+        if (Input.GetKeyDown(KeyCode.E))
         {
             transform.GetChild(0).gameObject.SetActive(false);
             moveSpeed = 10;
