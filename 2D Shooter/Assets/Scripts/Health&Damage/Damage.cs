@@ -36,6 +36,7 @@ public class Damage : MonoBehaviour
     /// <param name="collision">The Collider2D that set of the function call</param>
     private void OnTriggerEnter2D(Collider2D collision)
     {
+ 
         if (dealDamageOnTriggerEnter)
         {
             DealDamage(collision.gameObject);

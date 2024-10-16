@@ -123,6 +123,7 @@ public class Health : MonoBehaviour
     /// <param name="damageAmount">The amount of damage to take</param>
     public void TakeDamage(int damageAmount)
     {
+        
         if (isInvincableFromDamage || isAlwaysInvincible)
         {
             return;

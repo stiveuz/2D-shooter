@@ -8,6 +8,8 @@ using UnityEngine.InputSystem;
 /// </summary>
 public class Controller : MonoBehaviour
 {
+
+    
     [Header("GameObject/Component References")]
     [Tooltip("The animator controller used to animate the player.")]
     public RuntimeAnimatorController animator = null;
@@ -99,6 +101,18 @@ public class Controller : MonoBehaviour
         HandleInput();
         // Sends information to an animator component if one is assigned
         SignalAnimator();
+
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            transform.GetChild(0).gameObject.SetActive(true);
+            moveSpeed = 20;
+        }
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            transform.GetChild(0).gameObject.SetActive(false);
+            moveSpeed = 10;
+        }
+
     }
 
     /// <summary>
